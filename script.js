@@ -21,7 +21,7 @@ let numberC = numberA / numberB + numberA - numberB
 console.log("Tall C:")
 console.log(numberC)
 
-// Grunnleggend Data Typer
+// Grunnleggende Data Typer
 
 // Stringer (tekst)
 let stringA = "Hello"
@@ -70,3 +70,39 @@ console.log(thisIsUndefined)
 let doesNotYetHaveValue = null
 console.log("The following does not yet have a value:")
 console.log(doesNotYetHaveValue)
+
+
+// Komplekse/Sammensatte Data Typer
+
+// Array (Lists)
+let arrayA = [
+    "Per",
+    "Pål",
+    "Espens",
+    "Martha",
+]
+
+console.log("This is a array (list)")
+console.log(arrayA)
+
+console.log("Accessing a single entry")
+console.log(arrayA[1])
+
+// Object
+
+let personA = {
+    name: "Espen",
+    proffesion: "Adventurer",
+    age: 18,
+    eyeColor: "blue"
+}
+console.log("This is a collection of variables (Object)")
+console.log(personA)
+
+console.log("Accessing a single entry in an object")
+console.log(personA["proffesion"])
+console.log(personA.eyeColor)
+
+// Inbuilt objects
+console.log(console)
+console.error("This is a error")
